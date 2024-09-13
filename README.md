@@ -20,6 +20,7 @@ docker push localhost:32000/hello-world-api:latest
 * Create the configmap
 ```sh
 microk8s kubectl apply -f k8s.configmap.yaml
+```
 
 * Deploy the application
 ```sh
